@@ -279,7 +279,11 @@ footer {
   
   .blog-text {
     width: 49%;
-    padding-top:5px;
+    /*padding-top:5px;*/
+  }
+  
+  .blog-date {
+    font-size: 15px;
   }
   
   .sidebar-contents {
@@ -303,5 +307,18 @@ footer {
   
   .pagination {
     margin-bottom:50px;
+  }
+  
+  .common-heading {
+    margin: 50px 0;
+  }
+  
+  .blog-heading {
+    margin-bottom:50px;
+  }
+  
+  .category{
+    
+   display:none;
   }
 }
