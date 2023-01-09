@@ -10,7 +10,7 @@ a {
 }
 
 header, nav, h2, .main-visual, footer {
-  font-family: Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
+  font-family:Chalkduster, "Bradley Hand", Courier, "Segoe Print", sans-serif;
 }
 
 header {
@@ -62,8 +62,7 @@ header.heading {
   background-color: rgba(0,0,0,0.5);
   text-align:center;
   padding-top:105px;
-  
-}
+  }
 
 .main-visual-text {
   /*margin-top:30px;*/
@@ -226,4 +225,83 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+/*media queries*/
+
+@media screen and (max-width:425px) {
+  header {
+    width:100%;
+  }
+  
+  .nav-list {
+    width: 100%;
+  }
+  
+  .nav-list-item {
+    width: 100%;
+    margin-bottom:10px;
+  }
+  
+  .main-visual-content {
+    width: 100%;
+  }
+  
+  .main-visual {
+    width: 100%;
+  }
+  
+  .social  {
+    display: none;
+  }
+  
+ 
+  
+  main {
+    width: 100%;
+    /*並んだ要素を縦に並べる*/
+    display: block; 
+    
+  }
+  
+  .blog {
+    width: 100%;
+    margin:0;
+  }
+  
+  .blog-box {
+    padding:0 2% 0 2%;
+  }
+  
+  .blog-image {
+    width :49%;
+  }
+  
+  .blog-text {
+    width: 49%;
+    padding-top:5px;
+  }
+  
+  .sidebar-contents {
+    /*width: 100%;*/
+    padding: 0 3% 0 3%;
+  }
+  
+  .sidebar {
+    width:100%;
+  }
+  
+  .instagram-box {
+    width: 48%;
+    padding-top:48%;
+    
+  }
+  
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+  
+  .pagination {
+    margin-bottom:50px;
+  }
 }
